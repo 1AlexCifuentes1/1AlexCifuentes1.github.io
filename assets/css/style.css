@@ -1,0 +1,56 @@
+:root{
+        --color_1: #06328A;
+        --color_2: #19274E;
+        --color_3: #6C87D4;
+        --color_texto: #2A2A2A;
+        --color_fondo: #EDEDF0;
+}
+
+@font-face {
+    font-family: 'Fuente1';
+    src: url('assets/fonts/CormorantGaramond-Light.ttf') format('ttf');
+  }
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--color_fondo);
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    background-color: var(--color_3);
+    margin: 0;
+    padding: 0;
+    color: var(--color_2);
+}
+
+header h3{
+    color: var(--color_2);
+}
+
+.nav-links{
+    margin: 4px;
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+}
+
+.nav-links a{
+    color: var(--color_1);
+    margin: 15px;
+    padding: 5.5px;
+    text-decoration: none;
+}
+
+.nav-links a:hover{
+    background-color: var(--color_3);
+    color: var(--color_2);
+}
+
+.container{
+    display:flow-root;
+    background-color: var(--color_3);
+}
